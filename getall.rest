@@ -1,0 +1,14 @@
+POST http://localhost:3000/api/persons
+Content-Type: application/json
+
+{
+  "name": "Oleg Mongol",
+  "number": "896341094"
+}
+
+###
+GET http://localhost:3000/api/persons
+Content-Type: application/json
+###
+GET http://localhost:3000/api/persons
+Content-Type: application/json
